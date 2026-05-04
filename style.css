@@ -1,0 +1,43 @@
+*{/*reset basico*/
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    text-align: center;
+    background-color: rgb(42,0,136);
+
+}
+header a{
+    color: antiquewhite;
+    font-size: 30px;
+}
+header div{
+    text-align: left;
+}
+header img{
+    margin-left:40px ;
+    width: 170px;
+    margin-top: 12px;
+}
+.cardpaises{
+    display: inline-block;
+    width: 300px;
+    margin: 55px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#paisescaixa{
+    width: 100%;
+    background-image: url(./imagens/fundo\ latam.jpg);
+    background-size: cover;
+    height: 150vh;
+}
+#sessaopaises{
+   width: 100%;
+
+}
+.cardpaises img{
+    width: 350px;
+}
