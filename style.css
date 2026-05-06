@@ -25,12 +25,12 @@ header img{
     width: 300px;
     margin: 55px;
     text-align: center;
-    color: aliceblue;
+    color: rgb(158, 120, 219);
 }
 
 #paisescaixa{
     width: 100%;
-    background-image: url(./imagens/fundo\ latam.jpg);
+    background-color: rgb(184, 176, 167);
     background-size: cover;
     height: 150vh;
 }
@@ -41,3 +41,4 @@ header img{
 .cardpaises img{
     width: 350px;
 }
+/*background-image: url(./imagens/fundo\ latam.jpg); para colocar foto de fundo*/
