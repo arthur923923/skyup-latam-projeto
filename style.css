@@ -3,7 +3,57 @@
     margin: 0%;
     padding: 0%;
 }
-header{
+header {
+    text-align: center;
+    background-color: rgb(42,0,136);
+}
+header img {
+    margin-left:40px ;
+    width: 170px;
+    margin-top: 12px;
+   
+}
+header a {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+}
+header div{
+    text-align: left;
+   
+}
+.cardpaises{
+    width: 300px;
+    text-align: center;
+    color: rgb(158, 120, 219); 
+    
+}
+#paisescaixa{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 150vh;
+    
+}
+.sessaopaises{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+
+ }
+ h1 {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .cardpaises img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+/*header{
     text-align: center;
     background-color: rgb(42,0,136);
 
@@ -40,5 +90,12 @@ header img{
 }
 .cardpaises img{
     width: 350px;
+    border-radius: 10px;
+    border: solid 6px purple;
 }
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
 /*background-image: url(./imagens/fundo\ latam.jpg); para colocar foto de fundo*/
