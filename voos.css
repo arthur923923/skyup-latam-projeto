@@ -1,0 +1,45 @@
+*{/*reset basico*/
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    text-align: center;
+    background-color: rgb(42,0,136);
+}
+header img {
+    margin-left:40px ;
+    width: 170px;
+    margin-top: 12px;
+   
+}
+header a {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+    width: 40px;
+}
+header div{
+    text-align: left;
+   
+}
+#caixaG{
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+.cardvoos img{
+    width: 200px;
+    height: 210;
+    border-radius: 30px;
+}
+.cardvoos{
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: space-evenly;
+}
