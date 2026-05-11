@@ -5,6 +5,87 @@
 }
 header {
     text-align: center;
+<<<<<<< HEAD
+     background-color: rgb(42,0,136);
+}
+header img{
+    margin-left:40px ;
+    width: 170px;
+    margin-top: 12px;
+}
+header div {
+    text-align: left;
+    background-color:rgb(42,0,136);
+}
+header a{
+    color: antiquewhite;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    color: rgb(42,0,136);
+}
+.hoteis {
+    display: inline-block;
+    width: 400px;
+    margin: 15px;
+    padding: 10px;
+    background-color:  rgb(42,0,136);
+    border-radius: 10px;
+    color: white;
+}
+.hoteis img {
+     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+footer{
+      background-color: hsl(245, 67%, 24%);
+      color: white;
+      padding: 40px 20px;
+    }
+    .rodapeG{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* Cada coluna */
+    .rodapeM{
+      width: 250px;
+      margin: 10px;
+    }
+
+    /* Títulos */
+    .rodapeM h2{
+      color: hsl(345, 90%, 45%);
+      margin-bottom: 15px;
+    }
+
+    /* Links */
+    .rodapeM a{
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 8px;
+      transition: 0.3s;
+    }
+    .direitos{
+      text-align: center;
+      margin-top: 30px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      padding-top: 20px;
+      font-size: 14px;
+    }
+
+
+      .footer-box{
+        width: 100%;
+      }
+=======
     background-color: rgb(42,0,136);
 }
 header img {
@@ -51,3 +132,4 @@ header div{
     height: 200px;
     border-radius: 15px;
 }
+>>>>>>> 0f94ec4ea9fa14962b8be5e59d4f4bf6ad9d4259
