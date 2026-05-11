@@ -1,119 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotéis</title>
-    <link rel="stylesheet" href="./hoteis.css">
-
+    <title>LATAM</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <header>
-        <nav>
-
-            <div>  
-                <img src="./imagens/logo latam.png" alt="logo do nav">
-            </div>
-
-       
-            <a href="./index.html">VOOS</a>
-            <a href="./hoteis.html">HOTÉIS</a>
-            <a href="./pacotes.html">PACOTES</a>
-        </nav>
-    </header>
-    <main><br>
-        <h1>DESCUBRA AS MELHORES OFERTAS </h1><br>
-        
+    <body>
+        <header>
+            <nav>
+              <div id="pai">
+                <div class="filho">
+                    <a href="./index.html"><img src="./imagens/logo latam.png" alt="logo do nav"></a>
+                </div>
+                <div class="filho filho-do-meio">
+                <a href="./voos.html">VOOS</a>
+                <a href="./hoteis.html">HOTÉIS</a>
+                <a href="./pacotes.html">PACOTES</a>
+                </div>
+                <div class="filho">
+                  <a href="https://www.google.com/maps/place/Aeroporto+Internacional+de+S%C3%A3o+Paulo%2FGuarulhos%E2%80%93Governador+Andr%C3%A9+Franco+Montoro/@-23.4279646,-46.5188385,14z/data=!3m1!4b1!4m6!3m5!1s0x94ce8af96f722a25:0x8071626c51a7154a!8m2!3d-23.4302175!4d-46.4716711!16zL20vMDM1anNx!5m1!1e4?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src="./imagens/mapa.png" alt=""></a>
+                </div>
+              </div>
+              </nav>
+              </header>
     <main>
-        <section id="paisescaixa">
-            <article>
-                <h1>paises</h1>
-            </article>
-            <div class="sessaopaises"><!--paises didponiveis paa voos-->
-                <article class="cardpaises"><!--brasil-->
-                    <a href="./brasil.html"><img src="./imagens/bandeira do brasa.webp"></a>
-                    <h3>Brasil</h3>
-                </article>
-                <article class="cardpaises"><!--espanha-->
-                    <a href="./espanha.html"><img src="./imagens/bandeira da espanha.avif" alt=""></a>
-                    <h3>Espanha</h3>
-                </article>
-                <article class="cardpaises"><!--eua-->
-                    <a href="./eua.html"><img src="./imagens/bandeira eua.webp" alt=""></a>
-                    <h3>Estados unidos da america</h3>
-                </article>
-            </div>
-            <div class="sessaopaises"><!--paises didponiveis paa voos-->
-                <article class="cardpaises"><!--franca-->
-                    <a href="./franca.html"><img src="./imagens/franca.webp" alt=""></a>
-                    <h3>Franca</h3>
-                </article>
-                <article class="cardpaises"><!--itali-->
-                    <a href="./italia.html"><img src="./imagens/bandeira-da-italia.webp" alt=""></a>
-                    <h3>Italia</h3>
-                </article>
-                <article class="cardpaises"><!--japa-->
-                    <a href="./japap.html"><img src="./imagens/bandeira-do-japa.webp" alt=""></a>
-                    <h3>Japão</h3>
-                </article>
-            </div>
+        <section class="banner">
+            <img src="./imagens/bannerhoteis.png" width="100%" height="90%" >
         </section>
-
-        <h1>Descubra as melhore ofertas</h1>
-
-        <div class="hoteis">
-
-            <img src="./imagens/hilton-hotel-copacabana.jpg" width="350px">
-            <h2>Hilton Copacabana </h2>
-            <h4>Rio de Janeiro</h4><br>
-            <h2>Preço a partir de </h2>
-            <h3>R$ 1.007</h3>
-        </div>
-        <div class="hoteis">
-
-            <img src="./imagens/Hyatt-Rio-de-Janeiro.webp" width="350px">
-            <h2> Grand Hyatt Rio De Janeiro</h2>
-            <h4>Rio de Janeiro</h4><br>
-            <h2>Preço a partir de </h2>
-            <h3>R$ 1.242</h3>
-        </div>
-        <div class="hoteis">
-            <img src="./imagens/HOTEL FASANO.webp" width="350px">
-            <h2>Hotel Fasano </h2>
-             <h4>São Paulo </h4><br>
-            <h2>Preço a partir de </h2>
-            <h3>R$ 4.268</h3>
-        </div>
-        <div class="hoteis">
-            <img src="./imagens/hotel unique 02.jpg" width="350px">
-            <h2>Hotel Unique</h2>
-            <h4>São Paulo </h4><br>
-            <h2>Preço a partir de </h2>
-            <h3>R$ 2.278</h3>
-        </div>
-        <div class="hoteis">
-
-            <img src="./imagens/tivoli hotel.webp" width="350px">
-            <h2>Hotel Tivoli Maiorana  </h2>
-             <h4>Belém Pará</h4><br>
-            <h2>Preço a partir de </h2>
-            <h3>R$ 928,98</h3>
-        </div>
-        <div class="hoteis">
-
-            <img src="./imagens/belo horizonte.jpg" width="350px">
-            <h2>Hotel Fasano </h2>
-            <h4>Belo Horizonte</h4><br>
-            <h2>Preço a partir de </h2>
-            <h3>R$ 2.693</h3>
-        </div><BR>
-
+            <section id="paisescaixa">
+                <article>
+                    <h1 id="destino">qual região vc deseja ?</h1>
+                </article>
+                <div class="sessaopaises"><!--paises didponiveis paa voos-->
+                    <article class="cardpaises"><!--brasil-->
+                        <a href="./brasil-hoteis.html"><img src="./imagens/bandeira do brasa.webp"></a>
+                        <h3>Brasil</h3>
+                    </article>
+                    <article class="cardpaises"><!--espanha-->
+                        <a href="./espanha-hoteis.html"><img src="./imagens/bandeira da espanha.avif" alt=""></a>
+                        <h3>Espanha</h3>
+                    </article>
+                    <article class="cardpaises"><!--eua-->
+                        <a href="./eua-hoteis.html"><img src="./imagens/bandeira eua.webp" alt=""></a>
+                        <h3>Eua</h3>
+                    </article>
+                </div>
+                <div class="sessaopaises"><!--paises didponiveis paa voos-->
+                    <article class="cardpaises"><!--franca-->
+                        <a href="./franca-hoteis.html"><img src="./imagens/franca.webp" alt=""></a>
+                        <h3>Franca</h3>
+                    </article>
+                    <article class="cardpaises"><!--itali-->
+                        <a href="./italia-hoteis.html"><img src="./imagens/bandeira-da-italia.webp" alt=""></a>
+                        <h3>Italia</h3>
+                    </article>
+                    <article class="cardpaises"><!--japa-->
+                        <a href="./japap-hoteis.html"><img src="./imagens/bandeira-do-japa.webp" alt=""></a>
+                        <h3>Japão</h3>
+                    </article>
+                </div>
+            </section>
+    
     </main>
     <footer>
 
-         <div class="rodapeG">
+    <div class="rodapeG">
 
       <div class="rodapeM">
         <h2>LATAM Airlines</h2>
@@ -156,11 +109,7 @@
       © 2026 LATAM Airlines - Todos os direitos reservados.
     </div>
 
-
-
-
-
-    </footer>
-</body>
-
-</html>
+  </footer>
+    </body>
+    
+    </html>
