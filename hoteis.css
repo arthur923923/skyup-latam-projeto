@@ -5,6 +5,7 @@
 }
 header {
     text-align: center;
+<<<<<<< HEAD
      background-color: rgb(42,0,136);
 }
 header img{
@@ -14,6 +15,7 @@ header img{
 }
 header div {
     text-align: left;
+    background-color:rgb(42,0,136);
 }
 header a{
     color: antiquewhite;
@@ -83,3 +85,51 @@ footer{
       .footer-box{
         width: 100%;
       }
+=======
+    background-color: rgb(42,0,136);
+}
+header img {
+    margin-left:40px ;
+    width: 170px;
+    margin-top: 12px;
+   
+}
+header a {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+}
+header div{
+    text-align: left;
+   
+}
+.cardpaises{
+    width: 300px;
+    text-align: center;
+    color: rgb(158, 120, 219); 
+    
+}
+#paisescaixa{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 150vh;
+    
+}
+.sessaopaises{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+
+ }
+ h1 {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .cardpaises img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+>>>>>>> 0f94ec4ea9fa14962b8be5e59d4f4bf6ad9d4259
