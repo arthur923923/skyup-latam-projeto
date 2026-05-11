@@ -16,11 +16,12 @@ header img {
 }
 #pai{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 }
-.filho{
-  
-  
+.filho-do-meio a{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 header a {
     color: rgb(255, 255, 255);
